@@ -1,0 +1,171 @@
+// _marqueestyles.scss
+
+#assoc {
+	width: 500px;
+	height: 130px;
+	overflow: hidden;
+	position: relative;
+}
+
+#assoc p{
+	font-size: 18px;
+	margin: 0;
+	text-align: center;
+}
+
+#assoc .controls{
+	width: 30px;
+	height: 65px;
+	display: inline-block;
+}
+
+#assoc .controls #control_left{
+	width: 30px;
+    height: 65px;
+	background-image: url('../img/controls.png');
+	background-position: -5px -5px;
+}
+
+#assoc .controls #control_left:hover{
+	width: 30px;
+    height: 65px;
+	background-image: url('../img/controls.png');
+	background-position: -45px -5px;
+}
+
+#assoc .controls #control_right{
+	width: 30px;
+    height: 65px;
+	background-image: url('../img/controls.png');
+	background-position: -85px -5px;
+}
+
+#assoc .controls #control_right:hover{
+	width: 30px;
+    height: 65px;
+	background-image: url('../img/controls.png');
+	background-position: -125px -5px;
+}
+
+#assoc_wrap {
+	width: 420px;
+	height: 65px;
+	overflow: hidden;
+	display: inline-block;
+	position: relative;
+}
+
+#assoc_slide_wrap{
+	position: relative;
+}
+
+.assoc_slide {
+	width: 210px;
+	height: 65px;
+	display: inline-block;
+	position: absolute;
+}
+
+.assoc_slide.slide1{
+	left: 0px;
+}
+
+.assoc_slide.slide2{
+	left: 210px;
+}
+
+.assoc_slide.slide3{
+	left: 420px;
+}
+
+.assoc_slide.slide4{
+	left: 630px;
+}
+
+.assoc_slide.slide5{
+	left: 840px;
+}
+
+.assoc_slide.slide6{
+	left: 1050px;
+}
+
+.assoc_slide.slide7{
+	left: 1260px;
+}
+
+.assoc_slide.slide8{
+	left: 1470px;
+}
+
+.assoc_slide.slide9{
+	left: 1680px;
+}
+
+.assoc_slide.slide10{
+	left: 1890px;
+}
+
+.assoc_slide.slide11{
+	left: 2100px;
+}
+
+.assoc_slide.slide12{
+	left: 2310px;
+}
+
+.assoc_slide.slide13{
+	left: 2520px;
+}
+
+.assoc_slide.slide14{
+	left: 2730px;
+}
+
+.assoc_slide.slide15{
+	left: 2940px;
+}
+
+.assoc_slide.slide16{
+	left: 3150px;
+}
+
+.assoc_slide.slide17{
+	left: 3360px;
+}
+
+.assoc_slide.slide18{
+	left: 3570px;
+}
+
+.assoc_slide.slide19{
+	left: 3780px;
+}
+
+.assoc_slide.slide20{
+	left: 3990px;
+}
+
+.icon{
+	display: table-cell;
+	width: 60px;
+	height: 65px;
+	vertical-align: middle;
+}
+
+.icon img{
+	max-width: 65px;
+	max-height: 65px;
+}
+
+.title{
+	display: table-cell;
+	width: 130px;
+	height: 65px;
+	vertical-align: middle;
+	padding-left: 10pxpx;
+	padding-right: 10px;
+
+	color: #818181;
+	font-size: 11px;
+}

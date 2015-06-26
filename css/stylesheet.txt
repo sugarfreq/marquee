@@ -1,0 +1,29 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-control_left {
+    width: 30px;
+    height: 65px;
+    background-position: -5px -5px;
+}
+
+.sprite-control_left_over {
+    width: 30px;
+    height: 65px;
+    background-position: -45px -5px;
+}
+
+.sprite-control_right {
+    width: 30px;
+    height: 65px;
+    background-position: -85px -5px;
+}
+
+.sprite-control_right_over {
+    width: 30px;
+    height: 65px;
+    background-position: -125px -5px;
+}
