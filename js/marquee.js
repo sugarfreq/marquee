@@ -1,12 +1,18 @@
 //marquee.js
 
-	var assocWrap = document.getElementById('assoc_slide_wrap');
-	var pos = -210;
-	var moveMarquee = setInterval ("marquee()", 4000);
+	// Here's another way to declare multiple vars:
+	var assocWrap = document.getElementById('assoc_slide_wrap'),
+			pos = -210,
+			moveMarquee = setInterval ("marquee()", 4000);
 
 	function marquee() {
 		if (pos >= -3390){
-			position = pos + 'px';
+
+			/**
+			*   Be sure to use a var before any variables
+			*     to avoid polluting the global namespace
+			**/
+			var position = pos + 'px';
 
 			assocWrap.style.left = position;
 
